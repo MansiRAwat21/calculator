@@ -7,7 +7,7 @@ body{
     margin-top: 50px;
 }
 .main{
-    width:250px;
+    width:270px;
     padding: 40px;
     height: 420px;
     border-radius: 10px;
@@ -41,11 +41,6 @@ body{
     font-size: 16px;
     cursor: pointer;
     box-shadow: rgba(205, 199, 199, 0.15) 1.95px 1.95px 2.6px;
-}
-
-.row .btn{
-    width: 120px;
-    border-radius: 10px
 }
 .row .color-b{
     background-color: rgb(255, 128, 0);
