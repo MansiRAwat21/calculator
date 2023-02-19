@@ -1,3 +1,6 @@
+body{
+    background-color: #312e2e;
+}
 .container{
     width: 100%;
     height: 100%;
@@ -6,11 +9,10 @@
 .main{
     width:250px;
     padding: 40px;
-    height: 450px;
-    background-color: rgb(128, 123, 123);
+    height: 420px;
     border-radius: 10px;
     margin-left: 35%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(255, 253, 253, 0.35) 0px 5px 15px;
 }
 .row{
     justify-content: center;
@@ -20,32 +22,37 @@
 }
 .row input{
     font-size: 20px;
-    margin:15px 0px;
+    margin-bottom:10px ;
     padding:20px 5px ;
     color: #fff;
     background-color: rgb(69, 67, 66);
-    border: 2px solid rgb(9, 9, 9);
+    border:none;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .button{
-    width: 60px;
+    width: 70px;
     padding: 20px;
-    margin: 0 3px;
+    margin: 0 4px;
     color: white;
     background-color: rgb(96, 92, 95);
-    border: 2px solid rgb(25, 25, 25);
-    border-radius: 20px;
+    border: none;
+    border-radius: 50%;
     font-size: 16px;
     cursor: pointer;
+    box-shadow: rgba(205, 199, 199, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .row .btn{
     width: 120px;
+    border-radius: 10px
 }
 .row .color-b{
     background-color: rgb(255, 128, 0);
+    
 }
 .row .color-a{
     background-color: rgb(69, 67, 66);
+    color: #0dff00;
+    
 }
